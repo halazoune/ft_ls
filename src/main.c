@@ -6,7 +6,7 @@
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/14 10:37:29 by ncoden            #+#    #+#             */
-/*   Updated: 2014/11/29 17:56:43 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/05/05 12:02:32 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@ int			main(int argc, char **argv)
 
 	if (!(dirlst = args_process(options, argv, argc)))
 		return (0);
+	path = NULL;
 	if (NEED_PATH)
 		if (!(path = (char *)malloc(sizeof(char) * 1024)))
 			return (0);

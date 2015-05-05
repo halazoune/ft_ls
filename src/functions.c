@@ -6,7 +6,7 @@
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/18 09:20:04 by ncoden            #+#    #+#             */
-/*   Updated: 2014/11/29 18:04:28 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/05/05 12:03:54 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ void		free_datas(void *content, size_t content_size)
 {
 	void	**datas;
 
-	content_size = content_size;
+	(void)content_size;
 	datas = content;
 	if (datas != NULL)
 	{

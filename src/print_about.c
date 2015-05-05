@@ -6,7 +6,7 @@
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/18 15:27:16 by ncoden            #+#    #+#             */
-/*   Updated: 2014/11/29 17:59:55 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/05/05 12:03:28 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,7 +69,6 @@ void		print_about(t_stat *stat)
 	else
 		ft_putnstr(&(mtime_str[11]), 5);
 	ft_putchar(' ');
-	mtime_str = mtime_str;
 }
 
 void		print_lnkabout(char *fpath)

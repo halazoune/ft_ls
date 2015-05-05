@@ -6,7 +6,7 @@
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/14 16:07:36 by ncoden            #+#    #+#             */
-/*   Updated: 2014/11/29 17:57:51 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/05/05 12:03:10 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,7 +82,7 @@ t_stat		*get_stat(char *options, char *fpath, t_dir *dirent)
 {
 	t_stat *dstat;
 
-	options = options;
+	(void)options;
 	if (!(dstat = (t_stat *)malloc(sizeof(t_stat))))
 		return (NULL);
 	if (dirent->d_type == DT_LNK || dirent->d_type == DT_UNKNOWN)

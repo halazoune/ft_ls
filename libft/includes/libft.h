@@ -6,7 +6,7 @@
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 17:59:44 by ncoden            #+#    #+#             */
-/*   Updated: 2014/12/01 19:04:53 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/05/05 12:00:03 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 # include <string.h>
 # include <stdlib.h>
 # include <unistd.h>
-# include <mlx.h>
+# include "mlx.h"
 # include <math.h>
 
 # define BUFF_SIZE 512
