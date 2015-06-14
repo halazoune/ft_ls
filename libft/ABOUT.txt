@@ -1,3 +1,0 @@
-Author: ncoden - nicos.coden@neuf.fr
-
-This is an old libft version, the latest compatible with ft_ls.
